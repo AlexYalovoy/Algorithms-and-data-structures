@@ -6,4 +6,4 @@ function linearSearch(arr, l, r, key) {
   }
   return -1;
 }
-module.exports.linearSearch = linearSearch();
+module.exports.linearSearch = linearSearch;

@@ -7,4 +7,4 @@ function fibonacciSequence(index) {
   }
   else return fibonacciSequence(index - 1) + fibonacciSequence(index - 2);
 }
-module.exports.fibonacciSequence = fibonacciSequence();
+module.exports.fibonacciSequence = fibonacciSequence;

@@ -159,21 +159,3 @@ class BST {
   }
 
 }
-
-let bst = new BST();
-bst.add(9);
-bst.add(4);
-bst.add(17);
-bst.add(3);
-bst.add(6);
-bst.add(22);
-bst.add(5);
-bst.add(7);
-bst.add(20);
-bst.add(24);
-
-console.log( bst.findMin() );
-console.log( bst.findMax() );
-
-console.log(bst.minHeight());
-console.log(bst.maxHeight());

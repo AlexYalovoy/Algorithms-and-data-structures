@@ -58,9 +58,3 @@ class HashTable {
     }
   }
 }
-
-let ht = new HashTable();
-ht.add(1, "IT").add(2, "Job");
-console.log( ht.at(2) );
-ht.remove(2);
-console.log( ht.at(2) );
