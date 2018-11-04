@@ -1,7 +1,7 @@
 function binarySearch(arr, key) {
-  var l = 0;
-  var r = arr.length - 1;
-  var i = Math.round(r / 2);
+  let l = 0;
+  let r = arr.length - 1;
+  let i = Math.round(r / 2);
   while(arr[i] != key) {
     if(arr[i] < key) 
       l = i;
@@ -12,4 +12,4 @@ function binarySearch(arr, key) {
   return i;
 }
 
-module.exports.binarySearch = binarySearch();
+module.exports.binarySearch = binarySearch;
