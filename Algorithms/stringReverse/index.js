@@ -1,6 +1,6 @@
 function stringReverse(arr) {
-  var leftArr = '';
-  var rightArr = '';
+  let leftArr = '';
+  let rightArr = '';
 
   for (let i = 0; i < Math.round((arr.length - 1) / 2); i++) {
     leftArr += arr[Math.round((arr.length - 1) / 2) - (i + 1)];
@@ -15,7 +15,7 @@ function stringReverse(arr) {
 }
 
 function stringReverseDefault(arr) {
-  var newArr = '';
+  let newArr = '';
   for (let i = 0; i < arr.length; i++) {
     newArr += arr[arr.length - 1 - i];
   }
@@ -23,6 +23,6 @@ function stringReverseDefault(arr) {
 }
 
 module.exports = {
-  stringReverse: stringReverse(),
-  stringReverseDefault: stringReverseDefault()
+  stringReverse: stringReverse,
+  stringReverseDefault: stringReverseDefault
 };
