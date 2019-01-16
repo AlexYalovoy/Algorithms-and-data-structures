@@ -49,7 +49,7 @@ class PriorityQueue {
         this._outputStack.push( this._inputStack.pop() );
       }
 
-      this._outputStack.push(element);
+      this._inputStack.push(element);
 
       while (this._outputStack.size() > 0) {
         this._inputStack.push( this._outputStack.pop() );
